@@ -31,6 +31,7 @@ export default function Home() {
         </div>
       </div>
 
+
       <div className={styles.center}>
         <Image
           className={styles.logo}
@@ -80,6 +81,20 @@ export default function Home() {
         >
           <h2 className={inter.className}>
             Deploy <span>-&gt;</span>
+          </h2>
+          <p className={inter.className}>
+            Instantly deploy your Next.js site to a shareable URL with Vercel.
+          </p>
+        </a>
+
+        <a
+            href="/home"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+          <h2 className={inter.className}>
+            Home
           </h2>
           <p className={inter.className}>
             Instantly deploy your Next.js site to a shareable URL with Vercel.
